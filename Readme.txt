@@ -35,6 +35,33 @@
 
 
 
+-------------- criando aplicação react mobile -------------- ("expo start") (iniciar a aplicação, após instalação do yarn)
+8 - "npm install -g expo-cli" (instalar o expo)
+
+9 - "expo init mobile" (iniciar o projeto, com expo-template-blank)
+
+10 - "choco install yarn" (instalar o yarn para utilizá-lo na visualização da aplicação mobile)
+
+11 - "npm install @react-navigation/native" (instalar react-navigation necessário para trabalhar com as rotas em projeto mobile tanto com o expo quanto sem ele)
+11.5 - "Set-ExecutionPolicy Unrestricted" (devido a problema apresentado, utilizar tais comandos, foi utilizado no windows powerShell)
+12 - "expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view"
+     - "Set-ExecutionPolicy Restricted"
+
+13 - "npm install @react-navigation/stack" (navegação em stack, aquela através de botões)
+
+14 - "expo install expo-constants" (para obter algumas constantes, algumas informações que são físicas para cada projeto (Constants, uma das funcionalidades))
+
+15 - "expo install expo-mail-composer" (fazer a escrita de email, abrir o email dentro da aplicação (em cima da nossa tela))
+
+16 - Rodar o backend
+
+17 - "npm install axios"
+
+18 - "npm install intl" (para o dinheiro R$ por exemplo)
+-------------- criando aplicação react mobile --------------
+
+
+
 -------------- Ferramentas necessárias --------------
 Download Insomnia (para testar as rotas)
 
@@ -75,6 +102,12 @@ Tipos de parâmetros:
 *Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
 
 *headers...
+
+
+package.json (tem as dependências do nosso projeto)
+node_modules (dependências instaladas)
+app.json(configurações do projeto)
+
 
 notion -> bacana
 -------------- Informações para lembrar / curiosidades --------------
